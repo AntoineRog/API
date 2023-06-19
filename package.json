@@ -1,0 +1,24 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Projet API Tech 2023",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "jwt-simple": "^0.5.6",
+    "mongoose": "^7.3.0",
+    "supertest": "^6.3.3"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
