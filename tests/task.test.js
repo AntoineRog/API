@@ -10,9 +10,9 @@ describe('Task API', () => {
     // Connectez-vous et obtenez un token valide pour les tests
     const response = await request(app)
       .post('/login')
-      .send({ username: 'your-username', password: 'your-password' });
+      .send({ username: '', password: '' });
     token = response.body.token;
-  });
+  }, 10000);
 
   it('should create a new task', async () => {
     const response = await request(app)

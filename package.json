@@ -4,8 +4,8 @@
   "description": "Projet API Tech 2023",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
-
+    "test": "jest",
+    "start": "nodemon ./index.js"
   },
   "author": "",
   "license": "ISC",
@@ -16,6 +16,7 @@
     "jsonwebtoken": "^9.0.0",
     "jwt-simple": "^0.5.6",
     "mongoose": "^7.3.0",
+    "nodemon": "^2.0.22",
     "supertest": "^6.3.3"
   },
   "devDependencies": {
